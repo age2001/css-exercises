@@ -81,10 +81,11 @@ body {
   flex: 1;
   flex-shrink: 0;
   flex-wrap: wrap;
-  gap: 32px;
   padding: 32px;
 }
 
 .card {
-  width: 290px;
+  width: 300px;
+  padding: 16px;
+  margin: 16px;
 }
