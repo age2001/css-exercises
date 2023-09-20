@@ -20,6 +20,33 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* ADDED */
+  display: flex;
+  padding-right: 20px;
+  padding-top: 18px;
+}
+
+/* ADDED CLASS */
+.text-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ADDED CLASS */
+.continue-cancel-button {
+  display: flex;
+  gap: 4px;
+  margin: 15px 0;
+}
+
+/* ADDED CLASS */
+.header-exit-button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
 }
 
 .icon {
@@ -33,6 +60,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* ADDED */
+  flex-shrink: 0;
+  margin: 0 12px;
 }
 
 .close-button {
@@ -67,3 +97,4 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
