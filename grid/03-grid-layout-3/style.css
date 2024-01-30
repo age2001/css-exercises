@@ -107,3 +107,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   list-style: none;
 }
+
+div .menu {
+  display: grid;
+  align-items: center;
+}
